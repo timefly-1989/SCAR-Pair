@@ -1,0 +1,48 @@
+Some weights of the model checkpoint at /Users/liushuai/.cache/huggingface/hub/models--Alibaba-NLP--gte-multilingual-base/snapshots/9bbca17d9273fd0d03d5725c7a4b0f6b45142062 were not used when initializing NewModel: ['classifier.bias', 'classifier.weight']
+- This IS expected if you are initializing NewModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing NewModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Batches:   0%|          | 0/92 [00:00<?, ?it/s]Batches:   1%|          | 1/92 [00:00<00:45,  2.02it/s]Batches:   2%|▏         | 2/92 [00:00<00:36,  2.47it/s]Batches:   3%|▎         | 3/92 [00:01<00:33,  2.67it/s]Batches:   4%|▍         | 4/92 [00:01<00:30,  2.89it/s]Batches:   5%|▌         | 5/92 [00:01<00:28,  3.02it/s]Batches:   7%|▋         | 6/92 [00:02<00:27,  3.15it/s]Batches:   8%|▊         | 7/92 [00:02<00:26,  3.26it/s]Batches:   9%|▊         | 8/92 [00:02<00:24,  3.38it/s]Batches:  10%|▉         | 9/92 [00:02<00:23,  3.48it/s]Batches:  11%|█         | 10/92 [00:03<00:22,  3.59it/s]Batches:  12%|█▏        | 11/92 [00:03<00:21,  3.69it/s]Batches:  13%|█▎        | 12/92 [00:03<00:21,  3.76it/s]Batches:  14%|█▍        | 13/92 [00:03<00:20,  3.82it/s]Batches:  15%|█▌        | 14/92 [00:04<00:19,  3.98it/s]Batches:  16%|█▋        | 15/92 [00:04<00:18,  4.12it/s]Batches:  17%|█▋        | 16/92 [00:04<00:18,  4.19it/s]Batches:  18%|█▊        | 17/92 [00:04<00:17,  4.33it/s]Batches:  20%|█▉        | 18/92 [00:05<00:16,  4.46it/s]Batches:  21%|██        | 19/92 [00:05<00:16,  4.54it/s]Batches:  22%|██▏       | 20/92 [00:05<00:15,  4.70it/s]Batches:  23%|██▎       | 21/92 [00:05<00:14,  4.80it/s]Batches:  24%|██▍       | 22/92 [00:05<00:14,  4.81it/s]Batches:  25%|██▌       | 23/92 [00:06<00:14,  4.86it/s]Batches:  26%|██▌       | 24/92 [00:06<00:13,  4.94it/s]Batches:  27%|██▋       | 25/92 [00:06<00:13,  5.09it/s]Batches:  28%|██▊       | 26/92 [00:06<00:12,  5.13it/s]Batches:  29%|██▉       | 27/92 [00:06<00:12,  5.25it/s]Batches:  30%|███       | 28/92 [00:06<00:11,  5.42it/s]Batches:  32%|███▏      | 29/92 [00:07<00:11,  5.48it/s]Batches:  33%|███▎      | 30/92 [00:07<00:10,  5.64it/s]Batches:  34%|███▎      | 31/92 [00:07<00:10,  5.57it/s]Batches:  35%|███▍      | 32/92 [00:07<00:10,  5.67it/s]Batches:  36%|███▌      | 33/92 [00:07<00:10,  5.80it/s]Batches:  37%|███▋      | 34/92 [00:07<00:09,  5.92it/s]Batches:  38%|███▊      | 35/92 [00:08<00:09,  6.07it/s]Batches:  39%|███▉      | 36/92 [00:08<00:09,  6.15it/s]Batches:  40%|████      | 37/92 [00:08<00:08,  6.27it/s]Batches:  41%|████▏     | 38/92 [00:08<00:08,  6.22it/s]Batches:  42%|████▏     | 39/92 [00:08<00:08,  6.30it/s]Batches:  43%|████▎     | 40/92 [00:08<00:08,  6.29it/s]Batches:  45%|████▍     | 41/92 [00:09<00:07,  6.45it/s]Batches:  46%|████▌     | 42/92 [00:09<00:07,  6.50it/s]Batches:  47%|████▋     | 43/92 [00:09<00:07,  6.54it/s]Batches:  48%|████▊     | 44/92 [00:09<00:07,  6.67it/s]Batches:  49%|████▉     | 45/92 [00:09<00:07,  6.66it/s]Batches:  50%|█████     | 46/92 [00:09<00:06,  6.76it/s]Batches:  51%|█████     | 47/92 [00:09<00:06,  6.80it/s]Batches:  52%|█████▏    | 48/92 [00:10<00:06,  6.75it/s]Batches:  53%|█████▎    | 49/92 [00:10<00:06,  7.02it/s]Batches:  54%|█████▍    | 50/92 [00:10<00:05,  7.22it/s]Batches:  55%|█████▌    | 51/92 [00:10<00:05,  7.38it/s]Batches:  57%|█████▋    | 52/92 [00:10<00:05,  7.44it/s]Batches:  58%|█████▊    | 53/92 [00:10<00:05,  7.60it/s]Batches:  59%|█████▊    | 54/92 [00:10<00:04,  7.73it/s]Batches:  60%|█████▉    | 55/92 [00:10<00:04,  7.76it/s]Batches:  61%|██████    | 56/92 [00:11<00:04,  7.70it/s]Batches:  62%|██████▏   | 57/92 [00:11<00:04,  7.79it/s]Batches:  63%|██████▎   | 58/92 [00:11<00:04,  7.86it/s]Batches:  64%|██████▍   | 59/92 [00:11<00:04,  8.19it/s]Batches:  65%|██████▌   | 60/92 [00:11<00:03,  8.44it/s]Batches:  66%|██████▋   | 61/92 [00:11<00:03,  8.32it/s]Batches:  67%|██████▋   | 62/92 [00:11<00:03,  8.55it/s]Batches:  68%|██████▊   | 63/92 [00:11<00:03,  8.70it/s]Batches:  70%|██████▉   | 64/92 [00:12<00:03,  8.65it/s]Batches:  71%|███████   | 65/92 [00:12<00:03,  8.70it/s]Batches:  72%|███████▏  | 66/92 [00:12<00:02,  8.75it/s]Batches:  73%|███████▎  | 67/92 [00:12<00:02,  8.84it/s]Batches:  74%|███████▍  | 68/92 [00:12<00:02,  9.14it/s]Batches:  75%|███████▌  | 69/92 [00:12<00:02,  9.10it/s]Batches:  76%|███████▌  | 70/92 [00:12<00:02,  9.27it/s]Batches:  77%|███████▋  | 71/92 [00:12<00:02,  9.40it/s]Batches:  78%|███████▊  | 72/92 [00:12<00:02,  9.32it/s]Batches:  80%|████████  | 74/92 [00:13<00:01,  9.68it/s]Batches:  82%|████████▏ | 75/92 [00:13<00:01,  9.73it/s]Batches:  84%|████████▎ | 77/92 [00:13<00:01,  9.93it/s]Batches:  86%|████████▌ | 79/92 [00:13<00:01, 10.37it/s]Batches:  88%|████████▊ | 81/92 [00:13<00:01, 10.82it/s]Batches:  90%|█████████ | 83/92 [00:13<00:00, 11.09it/s]Batches:  92%|█████████▏| 85/92 [00:14<00:00, 11.10it/s]Batches:  95%|█████████▍| 87/92 [00:14<00:00, 11.40it/s]Batches:  97%|█████████▋| 89/92 [00:14<00:00, 11.99it/s]Batches:  99%|█████████▉| 91/92 [00:14<00:00, 12.68it/s]Batches: 100%|██████████| 92/92 [00:14<00:00,  6.29it/s]
+mgte LoCoMo documents: 5882 texts in 14.7s
+Batches:   0%|          | 0/31 [00:00<?, ?it/s]Batches:   3%|▎         | 1/31 [00:00<00:03,  8.23it/s]Batches:  10%|▉         | 3/31 [00:00<00:02,  9.95it/s]Batches:  16%|█▌        | 5/31 [00:00<00:02, 10.88it/s]Batches:  23%|██▎       | 7/31 [00:00<00:02, 11.43it/s]Batches:  29%|██▉       | 9/31 [00:00<00:01, 12.25it/s]Batches:  35%|███▌      | 11/31 [00:00<00:01, 12.77it/s]Batches:  42%|████▏     | 13/31 [00:01<00:01, 13.12it/s]Batches:  48%|████▊     | 15/31 [00:01<00:01, 13.47it/s]Batches:  55%|█████▍    | 17/31 [00:01<00:00, 14.09it/s]Batches:  61%|██████▏   | 19/31 [00:01<00:00, 14.81it/s]Batches:  68%|██████▊   | 21/31 [00:01<00:00, 15.24it/s]Batches:  74%|███████▍  | 23/31 [00:01<00:00, 15.94it/s]Batches:  81%|████████  | 25/31 [00:01<00:00, 15.81it/s]Batches:  87%|████████▋ | 27/31 [00:01<00:00, 16.61it/s]Batches:  94%|█████████▎| 29/31 [00:02<00:00, 17.00it/s]Batches: 100%|██████████| 31/31 [00:02<00:00, 17.27it/s]Batches: 100%|██████████| 31/31 [00:02<00:00, 14.41it/s]
+mgte LoCoMo questions: 1982 texts in 2.2s
+LoCoMo ranking:   0%|          | 0/1982 [00:00<?, ?it/s]LoCoMo ranking:  12%|█▏        | 236/1982 [00:00<00:00, 2037.60it/s]LoCoMo ranking:  24%|██▍       | 475/1982 [00:00<00:00, 2225.93it/s]LoCoMo ranking:  35%|███▌      | 699/1982 [00:00<00:00, 2228.05it/s]LoCoMo ranking:  47%|████▋     | 923/1982 [00:00<00:00, 2179.53it/s]LoCoMo ranking:  58%|█████▊    | 1142/1982 [00:00<00:00, 2123.49it/s]LoCoMo ranking:  68%|██████▊   | 1355/1982 [00:00<00:00, 2106.02it/s]LoCoMo ranking:  79%|███████▉  | 1567/1982 [00:00<00:00, 2109.49it/s]LoCoMo ranking:  92%|█████████▏| 1815/1982 [00:00<00:00, 2223.81it/s]LoCoMo ranking: 100%|██████████| 1982/1982 [00:00<00:00, 2190.79it/s]
+{
+  "source_commit": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+  "documents": 5882,
+  "questions": 1982,
+  "model": "mgte",
+  "model_revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "max_length": 512,
+  "document_style": "speaker",
+  "bm25_tokenizer": "unicode",
+  "elapsed_seconds_including_cached_load_and_ranking": 17.795821542007616,
+  "aggregate_at_5": [
+    {
+      "method": "BM25",
+      "n": 1982,
+      "hit": 0.4899091826437941,
+      "recall": 0.451569154861284,
+      "complete": 0.42230070635721495,
+      "mrr": 0.3516565758493105,
+      "ndcg": 0.3644577678707106
+    },
+    {
+      "method": "Dense",
+      "n": 1982,
+      "hit": 0.4475277497477296,
+      "recall": 0.40061962691948355,
+      "complete": 0.3622603430877901,
+      "mrr": 0.2975109317188026,
+      "ndcg": 0.3089601802152269
+    },
+    {
+      "method": "RRF",
+      "n": 1982,
+      "hit": 0.5201816347124117,
+      "recall": 0.47278384150297154,
+      "complete": 0.43440968718466194,
+      "mrr": 0.36440464177598386,
+      "ndcg": 0.37696351815708795
+    }
+  ]
+}

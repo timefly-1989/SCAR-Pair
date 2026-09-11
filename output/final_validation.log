@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "artifact": "retrieval_predictions.jsonl",
+      "rows": 26452
+    },
+    {
+      "artifact": "capacity_predictions.jsonl",
+      "rows": 3495
+    },
+    {
+      "artifact": "coverage_predictions.jsonl",
+      "rows": 2107
+    },
+    {
+      "artifact": "depth_grid_predictions.jsonl",
+      "rows": 6256
+    },
+    {
+      "artifact": "graph_probe_predictions.jsonl",
+      "rows": 94916
+    },
+    {
+      "artifact": "query_ce_predictions.jsonl",
+      "rows": 1556
+    },
+    {
+      "artifact": "reader_predictions.jsonl",
+      "rows": 3128,
+      "complete": true,
+      "conditions": {
+        "No-memory": 391,
+        "Query-Fuse-strict": 391,
+        "SCAR-Pair": 391,
+        "CE-Calibrated-Broad": 391,
+        "Oracle-Gold": 391,
+        "SCAR-Fuse": 391,
+        "Hybrid-Q": 391,
+        "CE-Calibrated": 391
+      }
+    },
+    {
+      "artifact": "reader_parser_audit.json",
+      "rows": 3128,
+      "additional_rejections": 14
+    },
+    {
+      "artifact": "locomo_predictions_bge-small_timestamped_unicode.jsonl",
+      "rows": 5946
+    },
+    {
+      "artifact": "locomo_predictions_mgte_timestamped_unicode.jsonl",
+      "rows": 5946
+    },
+    {
+      "artifact": "locomo_predictions_bge-m3_timestamped_unicode.jsonl",
+      "rows": 5946
+    }
+  ]
+}

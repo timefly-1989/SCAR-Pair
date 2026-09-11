@@ -1,0 +1,267 @@
+{
+  "raw_prediction_sha256": "7ded75d4e99057f1ced97f1b33433049d977bf4815818455d4a61748b7f9e7c0",
+  "parser": "Complete JSON document; reject duplicate object keys and non-JSON numeric constants; no repair",
+  "scoring_change": "Rescore frozen strings only; generation was not repeated",
+  "additional_rejections": [
+    {
+      "condition": "Query-Fuse-strict",
+      "qa_id": "qa_110",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "SCAR-Pair",
+      "qa_id": "qa_046",
+      "error": "Duplicate JSON key: gender"
+    },
+    {
+      "condition": "Query-Fuse-strict",
+      "qa_id": "qa_351",
+      "error": "Duplicate JSON key: topic"
+    },
+    {
+      "condition": "Query-Fuse-strict",
+      "qa_id": "qa_359",
+      "error": "Duplicate JSON key: sample"
+    },
+    {
+      "condition": "SCAR-Pair",
+      "qa_id": "qa_170",
+      "error": "Duplicate JSON key: sample"
+    },
+    {
+      "condition": "SCAR-Pair",
+      "qa_id": "qa_357",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "Oracle-Gold",
+      "qa_id": "qa_060",
+      "error": "Duplicate JSON key: subregion"
+    },
+    {
+      "condition": "CE-Calibrated-Broad",
+      "qa_id": "qa_259",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "Oracle-Gold",
+      "qa_id": "qa_090",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "Oracle-Gold",
+      "qa_id": "qa_133",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "Hybrid-Q",
+      "qa_id": "qa_046",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "SCAR-Fuse",
+      "qa_id": "qa_293",
+      "error": "Duplicate JSON key: team_id"
+    },
+    {
+      "condition": "CE-Calibrated",
+      "qa_id": "qa_110",
+      "error": "Duplicate JSON key: text"
+    },
+    {
+      "condition": "CE-Calibrated",
+      "qa_id": "qa_170",
+      "error": "Duplicate JSON key: text"
+    }
+  ],
+  "gold_failures": [
+    {
+      "qa_id": "qa_039",
+      "error": "connectionString: pattern mismatch"
+    },
+    {
+      "qa_id": "qa_086",
+      "error": "sample: expected integer"
+    },
+    {
+      "qa_id": "qa_087",
+      "error": "sample: expected integer"
+    },
+    {
+      "qa_id": "qa_267",
+      "error": "hotel_id: null is not allowed"
+    },
+    {
+      "qa_id": "qa_344",
+      "error": "count: below minimum"
+    },
+    {
+      "qa_id": "qa_356",
+      "error": "id: expected integer"
+    }
+  ],
+  "consistent": [
+    {
+      "condition": "No-memory",
+      "tasks": 385,
+      "json_validity": 0.9948051948051948,
+      "schema_validity": 0.9766233766233766,
+      "memory_argument_em": 0.09151515151515152,
+      "memory_call_em": 0.05454545454545454,
+      "full_call_em": 0.03896103896103896,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "Query-Fuse-strict",
+      "tasks": 385,
+      "json_validity": 0.987012987012987,
+      "schema_validity": 0.6233766233766234,
+      "memory_argument_em": 0.12562770562770562,
+      "memory_call_em": 0.09350649350649351,
+      "full_call_em": 0.07012987012987013,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "CE-Calibrated-Broad",
+      "tasks": 385,
+      "json_validity": 0.9896103896103896,
+      "schema_validity": 0.6181818181818182,
+      "memory_argument_em": 0.11870129870129871,
+      "memory_call_em": 0.09090909090909091,
+      "full_call_em": 0.07012987012987013,
+      "max_output_hits": 1
+    },
+    {
+      "condition": "SCAR-Fuse",
+      "tasks": 385,
+      "json_validity": 0.9766233766233766,
+      "schema_validity": 0.6207792207792208,
+      "memory_argument_em": 0.09930735930735932,
+      "memory_call_em": 0.07272727272727272,
+      "full_call_em": 0.05194805194805195,
+      "max_output_hits": 1
+    },
+    {
+      "condition": "SCAR-Pair",
+      "tasks": 385,
+      "json_validity": 0.9896103896103896,
+      "schema_validity": 0.6155844155844156,
+      "memory_argument_em": 0.10809523809523809,
+      "memory_call_em": 0.08051948051948052,
+      "full_call_em": 0.06753246753246753,
+      "max_output_hits": 1
+    },
+    {
+      "condition": "Oracle-Gold",
+      "tasks": 385,
+      "json_validity": 0.9818181818181818,
+      "schema_validity": 0.6155844155844156,
+      "memory_argument_em": 0.14987012987012985,
+      "memory_call_em": 0.11688311688311688,
+      "full_call_em": 0.09350649350649351,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "Hybrid-Q",
+      "tasks": 385,
+      "json_validity": 0.9948051948051948,
+      "schema_validity": 0.6077922077922078,
+      "memory_argument_em": 0.12900432900432898,
+      "memory_call_em": 0.1012987012987013,
+      "full_call_em": 0.07012987012987013,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "CE-Calibrated",
+      "tasks": 385,
+      "json_validity": 0.987012987012987,
+      "schema_validity": 0.5792207792207792,
+      "memory_argument_em": 0.09012987012987014,
+      "memory_call_em": 0.06493506493506493,
+      "full_call_em": 0.046753246753246755,
+      "max_output_hits": 1
+    }
+  ],
+  "all": [
+    {
+      "condition": "No-memory",
+      "tasks": 391,
+      "json_validity": 0.9948849104859335,
+      "schema_validity": 0.9718670076726342,
+      "memory_argument_em": 0.09096334185848251,
+      "memory_call_em": 0.05370843989769821,
+      "full_call_em": 0.03836317135549872,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "Query-Fuse-strict",
+      "tasks": 391,
+      "json_validity": 0.9872122762148338,
+      "schema_validity": 0.618925831202046,
+      "memory_argument_em": 0.12369991474850808,
+      "memory_call_em": 0.09207161125319693,
+      "full_call_em": 0.06905370843989769,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "CE-Calibrated-Broad",
+      "tasks": 391,
+      "json_validity": 0.989769820971867,
+      "schema_validity": 0.6214833759590793,
+      "memory_argument_em": 0.11687979539641942,
+      "memory_call_em": 0.08951406649616368,
+      "full_call_em": 0.06905370843989769,
+      "max_output_hits": 1
+    },
+    {
+      "condition": "SCAR-Fuse",
+      "tasks": 391,
+      "json_validity": 0.9744245524296675,
+      "schema_validity": 0.618925831202046,
+      "memory_argument_em": 0.09778346121057119,
+      "memory_call_em": 0.07161125319693094,
+      "full_call_em": 0.05115089514066496,
+      "max_output_hits": 1
+    },
+    {
+      "condition": "SCAR-Pair",
+      "tasks": 391,
+      "json_validity": 0.9872122762148338,
+      "schema_validity": 0.6138107416879796,
+      "memory_argument_em": 0.1089940323955669,
+      "memory_call_em": 0.08184143222506395,
+      "full_call_em": 0.06905370843989769,
+      "max_output_hits": 2
+    },
+    {
+      "condition": "Oracle-Gold",
+      "tasks": 391,
+      "json_validity": 0.9820971867007673,
+      "schema_validity": 0.6112531969309463,
+      "memory_argument_em": 0.1475703324808184,
+      "memory_call_em": 0.11508951406649616,
+      "full_call_em": 0.09207161125319693,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "Hybrid-Q",
+      "tasks": 391,
+      "json_validity": 0.9948849104859335,
+      "schema_validity": 0.6035805626598465,
+      "memory_argument_em": 0.1270247229326513,
+      "memory_call_em": 0.09974424552429667,
+      "full_call_em": 0.06905370843989769,
+      "max_output_hits": 0
+    },
+    {
+      "condition": "CE-Calibrated",
+      "tasks": 391,
+      "json_validity": 0.9872122762148338,
+      "schema_validity": 0.5754475703324808,
+      "memory_argument_em": 0.08874680306905372,
+      "memory_call_em": 0.0639386189258312,
+      "full_call_em": 0.04603580562659847,
+      "max_output_hits": 1
+    }
+  ]
+}

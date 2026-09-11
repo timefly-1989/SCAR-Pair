@@ -1,0 +1,40 @@
+{
+  "source_commit": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+  "documents": 5882,
+  "questions": 1982,
+  "model": "mgte",
+  "model_revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "max_length": 512,
+  "document_style": "speaker",
+  "bm25_tokenizer": "unicode",
+  "elapsed_seconds_including_cached_load_and_ranking": 17.795821542007616,
+  "aggregate_at_5": [
+    {
+      "method": "BM25",
+      "n": 1982,
+      "hit": 0.4899091826437941,
+      "recall": 0.451569154861284,
+      "complete": 0.42230070635721495,
+      "mrr": 0.3516565758493105,
+      "ndcg": 0.3644577678707106
+    },
+    {
+      "method": "Dense",
+      "n": 1982,
+      "hit": 0.4475277497477296,
+      "recall": 0.40061962691948355,
+      "complete": 0.3622603430877901,
+      "mrr": 0.2975109317188026,
+      "ndcg": 0.3089601802152269
+    },
+    {
+      "method": "RRF",
+      "n": 1982,
+      "hit": 0.5201816347124117,
+      "recall": 0.47278384150297154,
+      "complete": 0.43440968718466194,
+      "mrr": 0.36440464177598386,
+      "ndcg": 0.37696351815708795
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "protocol": "stratified five-fold out-of-fold",
+  "comparison": "SCAR-Fuse minus CE-Schema",
+  "source_slice_rule": "source corpus of the first annotated source ID",
+  "results": [
+    {
+      "slice": "L1",
+      "tasks": 237,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.48945147679324896,
+          "complete": 0.48945147679324896,
+          "ndcg": 0.3960799835289045
+        },
+        "CE-Schema": {
+          "recall": 0.4767932489451477,
+          "complete": 0.4767932489451477,
+          "ndcg": 0.3715152493639656
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.012658227848101278,
+        "complete": 0.012658227848101278,
+        "ndcg": 0.024564734164938873
+      }
+    },
+    {
+      "slice": "L2",
+      "tasks": 92,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.40217391304347827,
+          "complete": 0.40217391304347827,
+          "ndcg": 0.3104076462945207
+        },
+        "CE-Schema": {
+          "recall": 0.391304347826087,
+          "complete": 0.391304347826087,
+          "ndcg": 0.2959127340722377
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.010869565217391297,
+        "complete": 0.010869565217391297,
+        "ndcg": 0.014494912222282996
+      }
+    },
+    {
+      "slice": "L3-L4",
+      "tasks": 62,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.28456221198156684,
+          "complete": 0.14516129032258066,
+          "ndcg": 0.2522699552161796
+        },
+        "CE-Schema": {
+          "recall": 0.22043010752688172,
+          "complete": 0.11290322580645161,
+          "ndcg": 0.19324248840942207
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.06413210445468512,
+        "complete": 0.032258064516129045,
+        "ndcg": 0.05902746680675755
+      }
+    },
+    {
+      "slice": "One gold source",
+      "tasks": 329,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.46504559270516715,
+          "complete": 0.46504559270516715,
+          "ndcg": 0.3721229773721771
+        },
+        "CE-Schema": {
+          "recall": 0.45288753799392095,
+          "complete": 0.45288753799392095,
+          "ndcg": 0.35037412046779853
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.012158054711246202,
+        "complete": 0.012158054711246202,
+        "ndcg": 0.021748856904378555
+      }
+    },
+    {
+      "slice": "Multiple gold sources",
+      "tasks": 62,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.28456221198156684,
+          "complete": 0.14516129032258066,
+          "ndcg": 0.2522699552161796
+        },
+        "CE-Schema": {
+          "recall": 0.22043010752688172,
+          "complete": 0.11290322580645161,
+          "ndcg": 0.19324248840942207
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.06413210445468512,
+        "complete": 0.032258064516129045,
+        "ndcg": 0.05902746680675755
+      }
+    },
+    {
+      "slice": "No temporal conflict",
+      "tasks": 365,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.4433789954337899,
+          "complete": 0.4328767123287671,
+          "ndcg": 0.3550282868471656
+        },
+        "CE-Schema": {
+          "recall": 0.42876712328767125,
+          "complete": 0.42191780821917807,
+          "ndcg": 0.3331356659280849
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.014611872146118643,
+        "complete": 0.010958904109589052,
+        "ndcg": 0.021892620919080674
+      }
+    },
+    {
+      "slice": "Temporal conflict",
+      "tasks": 26,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.33882783882783885,
+          "complete": 0.15384615384615385,
+          "ndcg": 0.3263027722936132
+        },
+        "CE-Schema": {
+          "recall": 0.23717948717948717,
+          "complete": 0.07692307692307693,
+          "ndcg": 0.21767699428995735
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.10164835164835168,
+        "complete": 0.07692307692307693,
+        "ndcg": 0.10862577800365586
+      }
+    },
+    {
+      "slice": "ToolACE",
+      "tasks": 315,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.4899470899470899,
+          "complete": 0.4666666666666667,
+          "ndcg": 0.39556517473684427
+        },
+        "CE-Schema": {
+          "recall": 0.4656084656084657,
+          "complete": 0.4444444444444444,
+          "ndcg": 0.36641190720401184
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.024338624338624215,
+        "complete": 0.022222222222222254,
+        "ndcg": 0.029153267532832428
+      }
+    },
+    {
+      "slice": "OASST1",
+      "tasks": 50,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.17333333333333337,
+          "complete": 0.16,
+          "ndcg": 0.13640196773801522
+        },
+        "CE-Schema": {
+          "recall": 0.18,
+          "complete": 0.18,
+          "ndcg": 0.121943428665137
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": -0.006666666666666626,
+        "complete": -0.01999999999999999,
+        "ndcg": 0.014458539072878224
+      }
+    },
+    {
+      "slice": "BFCL-live",
+      "tasks": 26,
+      "methods": {
+        "SCAR-Fuse": {
+          "recall": 0.2939560439560439,
+          "complete": 0.2692307692307692,
+          "ndcg": 0.25561801345548874
+        },
+        "CE-Schema": {
+          "recall": 0.2692307692307692,
+          "complete": 0.2692307692307692,
+          "ndcg": 0.2206614504911268
+        }
+      },
+      "delta_scar_minus_ce": {
+        "recall": 0.024725274725274693,
+        "complete": 0.0,
+        "ndcg": 0.03495656296436195
+      }
+    }
+  ]
+}

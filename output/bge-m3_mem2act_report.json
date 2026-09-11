@@ -1,0 +1,32 @@
+{
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "max_length": 512,
+  "document_serialization": "content-only SCAR reconstruction",
+  "schema_serialization": "labelled request, tool, description, and parameter pairs",
+  "timing_seconds": {
+    "documents": 1209.9644375419884,
+    "requests": 1.5300172920105979,
+    "schemas": 11.205312042002333
+  },
+  "aggregates_at_5": [
+    {
+      "view": "request",
+      "n": 391,
+      "hit": 0.3248081841432225,
+      "recall": 0.30123614663256604,
+      "complete": 0.2813299232736573,
+      "mrr": 0.2390878090366581,
+      "ndcg": 0.2469102075002623
+    },
+    {
+      "view": "schema",
+      "n": 391,
+      "hit": 0.21739130434782608,
+      "recall": 0.20496894409937888,
+      "complete": 0.19437340153452684,
+      "mrr": 0.1459079283887468,
+      "ndcg": 0.15738081425233977
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "pool": "strict request-only depth-50 union",
+  "features": "three request CE coordinates",
+  "results": [
+    {
+      "protocol": "stratified",
+      "tasks": 391,
+      "recall": 0.39705882352941174,
+      "complete": 0.37595907928388744,
+      "mrr": 0.3013213981244672,
+      "ndcg": 0.31874152139780265
+    },
+    {
+      "protocol": "unseen_tool",
+      "tasks": 391,
+      "recall": 0.39705882352941174,
+      "complete": 0.37595907928388744,
+      "mrr": 0.3013213981244672,
+      "ndcg": 0.31874152139780265
+    },
+    {
+      "protocol": "shared_source",
+      "tasks": 391,
+      "recall": 0.39705882352941174,
+      "complete": 0.37595907928388744,
+      "mrr": 0.3013213981244672,
+      "ndcg": 0.31874152139780265
+    },
+    {
+      "protocol": "leave_source_out",
+      "tasks": 383,
+      "recall": 0.40535248041775457,
+      "complete": 0.3838120104438642,
+      "mrr": 0.30761531766753697,
+      "ndcg": 0.32539930774553744
+    }
+  ]
+}

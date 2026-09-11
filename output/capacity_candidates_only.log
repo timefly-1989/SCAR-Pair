@@ -1,0 +1,115 @@
+Five-neighbour graph features:   0%|          | 0/391 [00:00<?, ?it/s]Five-neighbour graph features:  16%|█▌        | 61/391 [00:00<00:00, 599.05it/s]Five-neighbour graph features:  31%|███       | 121/391 [00:00<00:00, 593.94it/s]Five-neighbour graph features:  46%|████▋     | 181/391 [00:00<00:00, 588.61it/s]Five-neighbour graph features:  61%|██████▏   | 240/391 [00:00<00:00, 584.78it/s]Five-neighbour graph features:  77%|███████▋  | 303/391 [00:00<00:00, 600.71it/s]Five-neighbour graph features:  93%|█████████▎| 364/391 [00:00<00:00, 597.95it/s]Five-neighbour graph features: 100%|██████████| 391/391 [00:00<00:00, 591.73it/s]
+stratified fold 1/5
+stratified fold 2/5
+stratified fold 3/5
+stratified fold 4/5
+stratified fold 5/5
+unseen_tool fold 1/5
+unseen_tool fold 2/5
+unseen_tool fold 3/5
+unseen_tool fold 4/5
+unseen_tool fold 5/5
+leave_source_out fold 1/3
+leave_source_out fold 2/3
+leave_source_out fold 3/3
+{
+  "conventions": {
+    "reliability": "mean of top-50 BM25/dense Jaccard and four-feature top-minus-median separation",
+    "lambdamart": "XGBRanker rank:pairwise; 300 depth-3 trees; eta=.03; row/column subsample=.85",
+    "graph": "five BGE-nearest neighbours from unaugmented broad candidates only; six mean CE features plus mean/max neighbour cosine",
+    "gold_isolation": "query reliability and neighbour sets depend only on retrieved candidates; inserted training gold may be a scored center but cannot alter test features",
+    "historical_exact_settings_available": false
+  },
+  "aggregates": [
+    {
+      "protocol": "leave_source_out",
+      "method": "LambdaMART",
+      "n": 383,
+      "hit": 0.3342036553524804,
+      "recall": 0.3215839860748477,
+      "complete": 0.31070496083550914,
+      "mrr": 0.23472584856396864,
+      "ndcg": 0.25180424079039904
+    },
+    {
+      "protocol": "leave_source_out",
+      "method": "LambdaMART-graph",
+      "n": 383,
+      "hit": 0.26370757180156656,
+      "recall": 0.2530461270670148,
+      "complete": 0.2454308093994778,
+      "mrr": 0.19586597040905135,
+      "ndcg": 0.205291659965495
+    },
+    {
+      "protocol": "leave_source_out",
+      "method": "Reliability-gate",
+      "n": 383,
+      "hit": 0.40992167101827676,
+      "recall": 0.3820713664055701,
+      "complete": 0.3577023498694517,
+      "mrr": 0.3002175805047868,
+      "ndcg": 0.3134483741022319
+    },
+    {
+      "protocol": "stratified",
+      "method": "LambdaMART",
+      "n": 391,
+      "hit": 0.4680306905370844,
+      "recall": 0.44394714407502134,
+      "complete": 0.4219948849104859,
+      "mrr": 0.3315004262574595,
+      "ndcg": 0.3529258163163065
+    },
+    {
+      "protocol": "stratified",
+      "method": "LambdaMART-graph",
+      "n": 391,
+      "hit": 0.4680306905370844,
+      "recall": 0.445225916453538,
+      "complete": 0.42455242966751916,
+      "mrr": 0.32570332480818415,
+      "ndcg": 0.3490765143745647
+    },
+    {
+      "protocol": "stratified",
+      "method": "Reliability-gate",
+      "n": 391,
+      "hit": 0.4578005115089514,
+      "recall": 0.42875411033978805,
+      "complete": 0.4040920716112532,
+      "mrr": 0.3420289855072464,
+      "ndcg": 0.3549037929992159
+    },
+    {
+      "protocol": "unseen_tool",
+      "method": "LambdaMART",
+      "n": 391,
+      "hit": 0.46035805626598464,
+      "recall": 0.43755328218243816,
+      "complete": 0.41687979539641945,
+      "mrr": 0.32225063938618925,
+      "ndcg": 0.34433339527152723
+    },
+    {
+      "protocol": "unseen_tool",
+      "method": "LambdaMART-graph",
+      "n": 391,
+      "hit": 0.45524296675191817,
+      "recall": 0.4337169650468883,
+      "complete": 0.4143222506393862,
+      "mrr": 0.3280051150895141,
+      "ndcg": 0.3471518980521268
+    },
+    {
+      "protocol": "unseen_tool",
+      "method": "Reliability-gate",
+      "n": 391,
+      "hit": 0.45268542199488493,
+      "recall": 0.4305200341005967,
+      "complete": 0.4092071611253197,
+      "mrr": 0.3357630008525149,
+      "ndcg": 0.35238294514852603
+    }
+  ]
+}

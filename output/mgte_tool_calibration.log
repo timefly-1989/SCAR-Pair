@@ -1,0 +1,38 @@
+Some weights of the model checkpoint at /Users/liushuai/.cache/huggingface/hub/models--Alibaba-NLP--gte-multilingual-base/snapshots/9bbca17d9273fd0d03d5725c7a4b0f6b45142062 were not used when initializing NewModel: ['classifier.bias', 'classifier.weight']
+- This IS expected if you are initializing NewModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing NewModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:00<00:04,  1.23it/s]Batches:  29%|██▊       | 2/7 [00:01<00:02,  2.04it/s]Batches:  43%|████▎     | 3/7 [00:01<00:01,  2.68it/s]Batches:  57%|█████▋    | 4/7 [00:01<00:00,  3.24it/s]Batches:  71%|███████▏  | 5/7 [00:01<00:00,  3.74it/s]Batches:  86%|████████▌ | 6/7 [00:01<00:00,  4.26it/s]Batches: 100%|██████████| 7/7 [00:02<00:00,  5.05it/s]Batches: 100%|██████████| 7/7 [00:02<00:00,  3.49it/s]
+mgte Mem2Act schema views: 391 texts in 2.1s
+mgte ranking:   0%|          | 0/391 [00:00<?, ?it/s]mgte ranking:   7%|▋         | 29/391 [00:00<00:01, 283.26it/s]mgte ranking:  17%|█▋        | 65/391 [00:00<00:00, 327.85it/s]mgte ranking:  26%|██▌       | 102/391 [00:00<00:00, 343.69it/s]mgte ranking:  36%|███▌      | 139/391 [00:00<00:00, 350.98it/s]mgte ranking:  45%|████▌     | 176/391 [00:00<00:00, 355.80it/s]mgte ranking:  54%|█████▍    | 212/391 [00:00<00:00, 357.06it/s]mgte ranking:  64%|██████▎   | 249/391 [00:00<00:00, 359.81it/s]mgte ranking:  73%|███████▎  | 286/391 [00:00<00:00, 361.82it/s]mgte ranking:  83%|████████▎ | 323/391 [00:00<00:00, 363.08it/s]mgte ranking:  92%|█████████▏| 360/391 [00:01<00:00, 364.30it/s]mgte ranking: 100%|██████████| 391/391 [00:01<00:00, 356.04it/s]
+{
+  "model": "Alibaba-NLP/gte-multilingual-base",
+  "revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "max_length": 512,
+  "document_serialization": "content-only SCAR reconstruction",
+  "schema_serialization": "labelled request, tool, and description only",
+  "timing_seconds": {
+    "documents": 0.0,
+    "requests": 0.0,
+    "schemas": 2.0562546250002924
+  },
+  "aggregates_at_5": [
+    {
+      "view": "request",
+      "n": 391,
+      "hit": 0.3734015345268542,
+      "recall": 0.35315430520034097,
+      "complete": 0.3375959079283887,
+      "mrr": 0.2658567774936061,
+      "ndcg": 0.28130482190068345
+    },
+    {
+      "view": "schema",
+      "n": 391,
+      "hit": 0.3069053708439898,
+      "recall": 0.2827609304591402,
+      "complete": 0.25831202046035806,
+      "mrr": 0.212617220801364,
+      "ndcg": 0.22357668238085854
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Fold uniqueness, task separation, tool/source-group isolation",
+      "status": "passed"
+    },
+    {
+      "artifact": "retrieval_predictions.jsonl",
+      "rows": 26452,
+      "sha256": "d36a2c1b8b7b4ba154e959d4c0ef629fa51159a111585907650dcf04ef394df8",
+      "status": "passed"
+    },
+    {
+      "artifact": "publication_pair_controls_predictions.jsonl",
+      "rows": 2729,
+      "sha256": "3b29016a74d85cc5ac7df97bd93eb48a24f10910765747789b82e3363115d5e7",
+      "status": "passed"
+    },
+    {
+      "artifact": "publication_reader_predictions.jsonl",
+      "rows": 3128,
+      "sha256": "b343d2a543d5a163f3a5bf8e90c92ab0292a37300d7be4c5c105ba4d963d5b8a",
+      "status": "passed"
+    },
+    {
+      "artifact": "publication_coverage_predictions.jsonl",
+      "rows": 3010,
+      "sha256": "5f35b5fb60fd243e87c74f87f09d05fa0652ae9c13e03b20bcd91a182ac6c683",
+      "status": "passed"
+    },
+    {
+      "check": "Gold-only feature poisoning leaves retrieved rows and reliability unchanged",
+      "tasks_with_insertions": 72,
+      "status": "passed"
+    },
+    {
+      "check": "Publication statistics have 84 contrasts and valid probability/interval bounds",
+      "status": "passed"
+    }
+  ]
+}

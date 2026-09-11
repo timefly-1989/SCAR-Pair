@@ -1,0 +1,1365 @@
+{
+  "bootstrap": "10000 component resamples, task-weighted statistic, percentile interval",
+  "randomization": "50000 joint component sign flips, two-sided, plus-one correction",
+  "holm": "Three metrics per comparator; additional twelve-test primary retrieval sensitivity",
+  "seed_rule": "20260730 + 700 + family index in script order",
+  "scope": "Post hoc robustness analysis; conditions on fixed out-of-fold predictions; assumes component sign symmetry",
+  "results": [
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.06153330897576422,
+      "ci95": [
+        0.03230019622505254,
+        0.09221697845092702
+      ],
+      "component_p": 5.999880002399952e-05,
+      "component_p_holm": 0.00011999760004799904,
+      "primary_twelve_comparison_holm": 0.0006599868002639947
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0639386189258312,
+      "ci95": [
+        0.034912718204488775,
+        0.09536082474226804
+      ],
+      "component_p": 7.999840003199936e-05,
+      "component_p_holm": 0.00011999760004799904,
+      "primary_twelve_comparison_holm": 0.0007999840003199936
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.049313326786202955,
+      "ci95": [
+        0.02825698234347049,
+        0.07176941430401007
+      ],
+      "component_p": 1.999960000799984e-05,
+      "component_p_holm": 5.9998800023999525e-05,
+      "primary_twelve_comparison_holm": 0.0002399952000959981
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.013213981244671782,
+      "ci95": [
+        -0.005128205128205128,
+        0.03248971518987341
+      ],
+      "component_p": 0.1767564648707026,
+      "component_p_holm": 0.3535129297414052,
+      "primary_twelve_comparison_holm": 0.3535129297414052
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.01278772378516624,
+      "ci95": [
+        -0.005208333333333333,
+        0.03282828282828283
+      ],
+      "component_p": 0.2990740185196296,
+      "component_p_holm": 0.3535129297414052,
+      "primary_twelve_comparison_holm": 0.3535129297414052
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.011892808965131155,
+      "ci95": [
+        0.0008005015171303778,
+        0.02354730292835326
+      ],
+      "component_p": 0.04215915681686366,
+      "component_p_holm": 0.126477470450591,
+      "primary_twelve_comparison_holm": 0.126477470450591
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.03020338570210693,
+      "ci95": [
+        0.006381824637071323,
+        0.05456865509982092
+      ],
+      "component_p": 0.013219735605287894,
+      "component_p_holm": 0.02643947121057579,
+      "primary_twelve_comparison_holm": 0.06609867802643947
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.030690537084398978,
+      "ci95": [
+        0.007537688442211055,
+        0.055415617128463476
+      ],
+      "component_p": 0.022099558008839823,
+      "component_p_holm": 0.02643947121057579,
+      "primary_twelve_comparison_holm": 0.08839823203535929
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.031282933519218105,
+      "ci95": [
+        0.011830352465182938,
+        0.05126351417691183
+      ],
+      "component_p": 0.0016999660006799865,
+      "component_p_holm": 0.00509989800203996,
+      "primary_twelve_comparison_holm": 0.01019979600407992
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.05386067470466448,
+      "ci95": [
+        0.023596925183116724,
+        0.08514874506889807
+      ],
+      "component_p": 0.0006399872002559949,
+      "component_p_holm": 0.0012799744005119898,
+      "primary_twelve_comparison_holm": 0.005119897602047959
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.056265984654731455,
+      "ci95": [
+        0.025510204081632654,
+        0.08831168831168831
+      ],
+      "component_p": 0.0006799864002719945,
+      "component_p_holm": 0.0012799744005119898,
+      "primary_twelve_comparison_holm": 0.005119897602047959
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.04026092207043056,
+      "ci95": [
+        0.019334743999686575,
+        0.06197834191549035
+      ],
+      "component_p": 0.00015999680006399873,
+      "component_p_holm": 0.0004799904001919962,
+      "primary_twelve_comparison_holm": 0.0014399712005759885
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-no-field",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.00036536353671903527,
+      "ci95": [
+        -0.01009732704758883,
+        0.010622710622710621
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-no-field",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0,
+      "ci95": [
+        -0.010309278350515464,
+        0.010256410256410256
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-no-field",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0045988598683245775,
+      "ci95": [
+        -0.0030048127819053143,
+        0.012192631784882441
+      ],
+      "component_p": 0.23649527009459811,
+      "component_p_holm": 0.7094858102837943
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-uniform-pairs",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": -0.0034100596760443308,
+      "ci95": [
+        -0.01445578231292517,
+        0.007575757575757576
+      ],
+      "component_p": 0.6582468350632987,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-uniform-pairs",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": -0.0025575447570332483,
+      "ci95": [
+        -0.013089005235602094,
+        0.007772020725388601
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-uniform-pairs",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.00010495881033486284,
+      "ci95": [
+        -0.007276048208065543,
+        0.0073673527335613945
+      ],
+      "component_p": 0.9786604267914641,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-one-mask",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-one-mask",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Pair-one-mask",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": -0.0009439136737302876,
+      "ci95": [
+        -0.002883361300222988,
+        0.0
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "Query-Fuse-schema-pool",
+      "right": "Query-Fuse-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": -0.0012787723785166241,
+      "ci95": [
+        -0.008974358974358974,
+        0.006329113924050633
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "Query-Fuse-schema-pool",
+      "right": "Query-Fuse-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0,
+      "ci95": [
+        -0.0076726342710997444,
+        0.007633587786259542
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "Query-Fuse-schema-pool",
+      "right": "Query-Fuse-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": -0.0005147183015410863,
+      "ci95": [
+        -0.004550864009400583,
+        0.0034744438183509758
+      ],
+      "component_p": 0.8599628007439851,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "CE-Calibrated-Broad",
+      "right": "CE-Query-Calibrated-Broad",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0370843989769821,
+      "ci95": [
+        0.01015164171432243,
+        0.06505102040816327
+      ],
+      "component_p": 0.011599768004639906,
+      "component_p_holm": 0.034799304013919716
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "CE-Calibrated-Broad",
+      "right": "CE-Query-Calibrated-Broad",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.03580562659846547,
+      "ci95": [
+        0.007731461850369704,
+        0.0641025641025641
+      ],
+      "component_p": 0.02013959720805584,
+      "component_p_holm": 0.04027919441611168
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "stratified",
+      "left": "CE-Calibrated-Broad",
+      "right": "CE-Query-Calibrated-Broad",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.02239118742158488,
+      "ci95": [
+        0.0015896057896978523,
+        0.04380418051305775
+      ],
+      "component_p": 0.03907921841563169,
+      "component_p_holm": 0.04027919441611168
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.05946291560102302,
+      "ci95": [
+        0.028854435831180015,
+        0.09022394487510765
+      ],
+      "component_p": 0.0001399972000559989,
+      "component_p_holm": 0.0002799944001119978
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.061381074168797956,
+      "ci95": [
+        0.030848329048843187,
+        0.09273182957393483
+      ],
+      "component_p": 0.00017999640007199856,
+      "component_p_holm": 0.0002799944001119978
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.05382797848991064,
+      "ci95": [
+        0.03237982707844849,
+        0.07610158624775264
+      ],
+      "component_p": 1.999960000799984e-05,
+      "component_p_holm": 5.9998800023999525e-05
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.005175983436853002,
+      "ci95": [
+        -0.01367567234147545,
+        0.02393461552241687
+      ],
+      "component_p": 0.5919281614367713,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.005115089514066497,
+      "ci95": [
+        -0.013020833333333334,
+        0.02349869451697128
+      ],
+      "component_p": 0.7887242255154897,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.011102298062813562,
+      "ci95": [
+        -0.0005477207294062178,
+        0.023327282429756475
+      ],
+      "component_p": 0.06609867802643947,
+      "component_p_holm": 0.1982960340793184
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.023017902813299233,
+      "ci95": [
+        -0.001700680272108842,
+        0.04834605597964377
+      ],
+      "component_p": 0.07787844243115137,
+      "component_p_holm": 0.15575688486230274
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.023017902813299233,
+      "ci95": [
+        -0.002512562814070352,
+        0.04785894206549118
+      ],
+      "component_p": 0.10505789884202316,
+      "component_p_holm": 0.15575688486230274
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.030503684598258963,
+      "ci95": [
+        0.011608071734036737,
+        0.04983987448745654
+      ],
+      "component_p": 0.0023399532009359815,
+      "component_p_holm": 0.007019859602807944
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.053069053708439895,
+      "ci95": [
+        0.02377892030848329,
+        0.08354598703176361
+      ],
+      "component_p": 0.000499990000199996,
+      "component_p_holm": 0.0009599808003839923
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.056265984654731455,
+      "ci95": [
+        0.027361486611606978,
+        0.08785529715762273
+      ],
+      "component_p": 0.00047999040019199615,
+      "component_p_holm": 0.0009599808003839923
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "unseen_tool",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.04321991326515121,
+      "ci95": [
+        0.02251824225903609,
+        0.06531072218521457
+      ],
+      "component_p": 5.999880002399952e-05,
+      "component_p_holm": 0.00017999640007199856
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.05641821946169773,
+      "ci95": [
+        0.027068955938456842,
+        0.08715986394557824
+      ],
+      "component_p": 0.00023999520009599807,
+      "component_p_holm": 0.00047999040019199615
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.056265984654731455,
+      "ci95": [
+        0.025906735751295335,
+        0.08728179551122195
+      ],
+      "component_p": 0.0005599888002239956,
+      "component_p_holm": 0.0005599888002239956
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.04336174152259679,
+      "ci95": [
+        0.02196572167773567,
+        0.06592069430089433
+      ],
+      "component_p": 7.999840003199936e-05,
+      "component_p_holm": 0.0002399952000959981
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.005967604433077577,
+      "ci95": [
+        -0.013889767932489451,
+        0.026770293609671845
+      ],
+      "component_p": 0.5772484550308994,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0025575447570332483,
+      "ci95": [
+        -0.017994858611825194,
+        0.023137737524183053
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.0054736628093298755,
+      "ci95": [
+        -0.006483257502578189,
+        0.017959688321686366
+      ],
+      "component_p": 0.374512509749805,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.019973206673973936,
+      "ci95": [
+        -0.0026319010894846374,
+        0.043385248690367445
+      ],
+      "component_p": 0.09765804683906322,
+      "component_p_holm": 0.19531609367812644
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.017902813299232736,
+      "ci95": [
+        -0.005063291139240506,
+        0.04081632653061224
+      ],
+      "component_p": 0.1876562468750625,
+      "component_p_holm": 0.19531609367812644
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.025338591257939934,
+      "ci95": [
+        0.006736132992739893,
+        0.044573095653753204
+      ],
+      "component_p": 0.009519809603807924,
+      "component_p_holm": 0.028559428811423773
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "recall",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.05386067470466448,
+      "ci95": [
+        0.023688252118846728,
+        0.08385235941921988
+      ],
+      "component_p": 0.0005399892002159956,
+      "component_p_holm": 0.0011399772004559907
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "complete",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.05370843989769821,
+      "ci95": [
+        0.023076923076923078,
+        0.08461538461538462
+      ],
+      "component_p": 0.0010599788004239915,
+      "component_p_holm": 0.0011399772004559907
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "shared_source",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "ndcg",
+      "tasks": 391,
+      "components": 366,
+      "difference": 0.03800395399451549,
+      "ci95": [
+        0.01689251346368765,
+        0.05933382085286274
+      ],
+      "component_p": 0.00037999240015199694,
+      "component_p_holm": 0.0011399772004559907
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "recall",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.03938207136640557,
+      "ci95": [
+        0.005176922261754988,
+        0.07422109911941577
+      ],
+      "component_p": 0.027299454010919783,
+      "component_p_holm": 0.08189836203275935
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "complete",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.03655352480417755,
+      "ci95": [
+        0.0025906735751295338,
+        0.0712401055408971
+      ],
+      "component_p": 0.05451890962180756,
+      "component_p_holm": 0.08189836203275935
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "ndcg",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.02773645920205433,
+      "ci95": [
+        0.0022584273255936605,
+        0.05321511233074418
+      ],
+      "component_p": 0.033899322013559725,
+      "component_p_holm": 0.08189836203275935
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "recall",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.008485639686684074,
+      "ci95": [
+        -0.008620689655172414,
+        0.027045279900987398
+      ],
+      "component_p": 0.39837203255934883,
+      "component_p_holm": 0.7967440651186977
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "complete",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.010443864229765013,
+      "ci95": [
+        -0.007501416876574306,
+        0.028720626631853787
+      ],
+      "component_p": 0.39837203255934883,
+      "component_p_holm": 0.7967440651186977
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "ndcg",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.008181225670994018,
+      "ci95": [
+        -0.004278819173832227,
+        0.020901170810580624
+      ],
+      "component_p": 0.2106357872842543,
+      "component_p_holm": 0.6319073618527629
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "recall",
+      "tasks": 383,
+      "components": 359,
+      "difference": -0.012184508268059181,
+      "ci95": [
+        -0.04288240495137046,
+        0.01919720767888307
+      ],
+      "component_p": 0.4585508289834203,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "complete",
+      "tasks": 383,
+      "components": 359,
+      "difference": -0.010443864229765013,
+      "ci95": [
+        -0.041343669250646,
+        0.020833333333333332
+      ],
+      "component_p": 0.6191676166476671,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "ndcg",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.005386483122322866,
+      "ci95": [
+        -0.014242788513111102,
+        0.02588417357014737
+      ],
+      "component_p": 0.6046479070418591,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "recall",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.016536118363794605,
+      "ci95": [
+        -0.0161020110817966,
+        0.04943132108486439
+      ],
+      "component_p": 0.34765304693906124,
+      "component_p_holm": 0.6920661586768264
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "complete",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.018276762402088774,
+      "ci95": [
+        -0.013192612137203167,
+        0.05128205128205128
+      ],
+      "component_p": 0.3460330793384132,
+      "component_p_holm": 0.6920661586768264
+    },
+    {
+      "domain": "retrieval",
+      "protocol": "leave_source_out",
+      "left": "SCAR-Pair",
+      "right": "Query-Pair-strict",
+      "metric": "ndcg",
+      "tasks": 383,
+      "components": 359,
+      "difference": 0.01808724932376841,
+      "ci95": [
+        -0.006502857160334087,
+        0.04271495049585174
+      ],
+      "component_p": 0.1496570068598628,
+      "component_p_holm": 0.4489710205795884
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "No-memory",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.01658008658008658,
+      "ci95": [
+        -0.017101717670552675,
+        0.0503359161562821
+      ],
+      "component_p": 0.34327313453730923,
+      "component_p_holm": 0.34327313453730923
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "No-memory",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.025974025974025976,
+      "ci95": [
+        -0.007792207792207792,
+        0.05789473684210526
+      ],
+      "component_p": 0.1643567128657427,
+      "component_p_holm": 0.3287134257314854
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "No-memory",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.02857142857142857,
+      "ci95": [
+        -0.002531806207029493,
+        0.0582010582010582
+      ],
+      "component_p": 0.08905821883562329,
+      "component_p_holm": 0.2671746565068699
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.01753246753246753,
+      "ci95": [
+        -0.048896084216976596,
+        0.013999204929437452
+      ],
+      "component_p": 0.29287414251714966,
+      "component_p_holm": 0.8786224275514489
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.012987012987012988,
+      "ci95": [
+        -0.04415584415584416,
+        0.01808785529715762
+      ],
+      "component_p": 0.51114977700446,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Query-Fuse-strict",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.0025974025974025974,
+      "ci95": [
+        -0.029023746701846966,
+        0.025510204081632654
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.010606060606060608,
+      "ci95": [
+        -0.041557904525449614,
+        0.019646544015149515
+      ],
+      "component_p": 0.5092698146037079,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.01038961038961039,
+      "ci95": [
+        -0.03875968992248062,
+        0.017676767676767676
+      ],
+      "component_p": 0.5851682966340673,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated-Broad",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.0025974025974025974,
+      "ci95": [
+        -0.02610966057441253,
+        0.02072538860103627
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.008787878787878785,
+      "ci95": [
+        -0.01875068711521548,
+        0.03654420794696176
+      ],
+      "component_p": 0.5376092478150437,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.007792207792207792,
+      "ci95": [
+        -0.01832460732984293,
+        0.033854166666666664
+      ],
+      "component_p": 0.6967660646787064,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "SCAR-Fuse",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.015584415584415584,
+      "ci95": [
+        -0.010256410256410256,
+        0.04092071611253197
+      ],
+      "component_p": 0.30513389732205354,
+      "component_p_holm": 0.9154016919661606
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Oracle-Gold",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.041774891774891784,
+      "ci95": [
+        -0.0796445751025475,
+        -0.0049524260327656515
+      ],
+      "component_p": 0.028399432011359773,
+      "component_p_holm": 0.08519829603407932
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Oracle-Gold",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.03636363636363636,
+      "ci95": [
+        -0.07349081364829396,
+        0.0
+      ],
+      "component_p": 0.07171856562868742,
+      "component_p_holm": 0.14343713125737484
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Oracle-Gold",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.025974025974025976,
+      "ci95": [
+        -0.058981233243967826,
+        0.005305747126436771
+      ],
+      "component_p": 0.15457690846183075,
+      "component_p_holm": 0.15457690846183075
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Hybrid-Q",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.020909090909090912,
+      "ci95": [
+        -0.05577668356464167,
+        0.012576634843441686
+      ],
+      "component_p": 0.23199536009279814,
+      "component_p_holm": 0.6959860802783944
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Hybrid-Q",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.02077922077922078,
+      "ci95": [
+        -0.05426356589147287,
+        0.010471204188481676
+      ],
+      "component_p": 0.2705545889082218,
+      "component_p_holm": 0.6959860802783944
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "Hybrid-Q",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": -0.0025974025974025974,
+      "ci95": [
+        -0.030848329048843187,
+        0.025510204081632654
+      ],
+      "component_p": 1.0,
+      "component_p_holm": 1.0
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated",
+      "metric": "memory_argument_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.017965367965367966,
+      "ci95": [
+        -0.013344901711504811,
+        0.049479166666666664
+      ],
+      "component_p": 0.27653446931061376,
+      "component_p_holm": 0.5530689386212275
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated",
+      "metric": "memory_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.015584415584415584,
+      "ci95": [
+        -0.01288659793814433,
+        0.043478260869565216
+      ],
+      "component_p": 0.3620127597448051,
+      "component_p_holm": 0.5530689386212275
+    },
+    {
+      "domain": "reader",
+      "protocol": "stratified",
+      "left": "SCAR-Pair",
+      "right": "CE-Calibrated",
+      "metric": "full_call_em",
+      "tasks": 385,
+      "components": 361,
+      "difference": 0.02077922077922078,
+      "ci95": [
+        -0.002564102564102564,
+        0.043701799485861184
+      ],
+      "component_p": 0.11525769484610308,
+      "component_p_holm": 0.34577308453830924
+    }
+  ]
+}

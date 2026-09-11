@@ -1,0 +1,18 @@
+{
+  "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "max_length": 512,
+  "batch_size": 128,
+  "device": "mps",
+  "score_floor_epsilon": 1e-06,
+  "candidate_pairs_per_view": {
+    "narrow": 48743,
+    "broad": 186984
+  },
+  "timing": {
+    "narrow_q_seconds": 226.3725774580089,
+    "narrow_schema_seconds": 252.85668095899746,
+    "broad_q_seconds": 986.0209824999911,
+    "broad_schema_seconds": 899.7837903330219
+  }
+}

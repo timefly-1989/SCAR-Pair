@@ -1,0 +1,35 @@
+Batches:   0%|          | 0/7 [00:00<?, ?it/s]Batches:  14%|█▍        | 1/7 [00:01<00:07,  1.21s/it]Batches:  29%|██▊       | 2/7 [00:01<00:04,  1.20it/s]Batches:  43%|████▎     | 3/7 [00:02<00:02,  1.47it/s]Batches:  57%|█████▋    | 4/7 [00:02<00:01,  1.70it/s]Batches:  71%|███████▏  | 5/7 [00:03<00:01,  1.88it/s]Batches:  86%|████████▌ | 6/7 [00:03<00:00,  2.10it/s]Batches: 100%|██████████| 7/7 [00:03<00:00,  1.95it/s]
+bge-m3 Mem2Act schema views: 391 texts in 3.6s
+bge-m3 ranking:   0%|          | 0/391 [00:00<?, ?it/s]bge-m3 ranking:   8%|▊         | 33/391 [00:00<00:01, 321.81it/s]bge-m3 ranking:  17%|█▋        | 66/391 [00:00<00:01, 323.13it/s]bge-m3 ranking:  25%|██▌       | 99/391 [00:00<00:00, 323.89it/s]bge-m3 ranking:  34%|███▍      | 132/391 [00:00<00:00, 324.47it/s]bge-m3 ranking:  42%|████▏     | 165/391 [00:00<00:00, 324.71it/s]bge-m3 ranking:  51%|█████     | 198/391 [00:00<00:00, 324.34it/s]bge-m3 ranking:  59%|█████▉    | 231/391 [00:00<00:00, 323.92it/s]bge-m3 ranking:  68%|██████▊   | 264/391 [00:00<00:00, 323.84it/s]bge-m3 ranking:  76%|███████▌  | 297/391 [00:00<00:00, 324.66it/s]bge-m3 ranking:  84%|████████▍ | 330/391 [00:01<00:00, 325.04it/s]bge-m3 ranking:  93%|█████████▎| 363/391 [00:01<00:00, 322.69it/s]bge-m3 ranking: 100%|██████████| 391/391 [00:01<00:00, 323.72it/s]
+{
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "max_length": 512,
+  "document_serialization": "content-only SCAR reconstruction",
+  "schema_serialization": "labelled request, tool, and description only",
+  "timing_seconds": {
+    "documents": 0.0,
+    "requests": 0.0,
+    "schemas": 3.6086617079854477
+  },
+  "aggregates_at_5": [
+    {
+      "view": "request",
+      "n": 391,
+      "hit": 0.3248081841432225,
+      "recall": 0.30123614663256604,
+      "complete": 0.2813299232736573,
+      "mrr": 0.2390878090366581,
+      "ndcg": 0.2469102075002623
+    },
+    {
+      "view": "schema",
+      "n": 391,
+      "hit": 0.2071611253196931,
+      "recall": 0.19266837169650466,
+      "complete": 0.17902813299232737,
+      "mrr": 0.13384484228473997,
+      "ndcg": 0.14501770285947183
+    }
+  ]
+}

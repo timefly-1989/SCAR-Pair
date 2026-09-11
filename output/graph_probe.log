@@ -1,0 +1,164 @@
+stratified fold 1/5
+stratified fold 2/5
+stratified fold 3/5
+stratified fold 4/5
+stratified fold 5/5
+unseen_tool fold 1/5
+unseen_tool fold 2/5
+unseen_tool fold 3/5
+unseen_tool fold 4/5
+unseen_tool fold 5/5
+shared_source fold 1/5
+shared_source fold 2/5
+shared_source fold 3/5
+shared_source fold 4/5
+shared_source fold 5/5
+leave_source_out fold 1/3
+leave_source_out fold 2/3
+leave_source_out fold 3/3
+[
+  {
+    "protocol": "leave_source_out",
+    "graph": "combined",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 383,
+    "hit": 0.4412532637075718,
+    "recall": 0.41340295909486513,
+    "complete": 0.38903394255874674,
+    "mrr": 0.32463011314186246,
+    "ndcg": 0.33864167280491675
+  },
+  {
+    "protocol": "leave_source_out",
+    "graph": "none",
+    "k_graph": null,
+    "alpha": 0.0,
+    "tasks": 383,
+    "hit": 0.4386422976501306,
+    "recall": 0.40948651000870323,
+    "complete": 0.3838120104438642,
+    "mrr": 0.3254134029590949,
+    "ndcg": 0.338204498770266
+  },
+  {
+    "protocol": "leave_source_out",
+    "graph": "semantic",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 383,
+    "hit": 0.4412532637075718,
+    "recall": 0.4120974760661445,
+    "complete": 0.38642297650130547,
+    "mrr": 0.3147519582245431,
+    "ndcg": 0.3309362352702716
+  },
+  {
+    "protocol": "shared_source",
+    "graph": "combined",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 391,
+    "hit": 0.46547314578005117,
+    "recall": 0.4411155766654488,
+    "complete": 0.4194373401534527,
+    "mrr": 0.3308610400682012,
+    "ndcg": 0.3512929918882855
+  },
+  {
+    "protocol": "shared_source",
+    "graph": "none",
+    "k_graph": null,
+    "alpha": 0.0,
+    "tasks": 391,
+    "hit": 0.46547314578005117,
+    "recall": 0.4411155766654488,
+    "complete": 0.4194373401534527,
+    "mrr": 0.33844842284739984,
+    "ndcg": 0.3570216890517403
+  },
+  {
+    "protocol": "shared_source",
+    "graph": "semantic",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 391,
+    "hit": 0.4680306905370844,
+    "recall": 0.44367312142248205,
+    "complete": 0.4219948849104859,
+    "mrr": 0.3261722080136402,
+    "ndcg": 0.3492127533712696
+  },
+  {
+    "protocol": "stratified",
+    "graph": "combined",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 391,
+    "hit": 0.46035805626598464,
+    "recall": 0.43259042747533794,
+    "complete": 0.4092071611253197,
+    "mrr": 0.33282182438192665,
+    "ndcg": 0.3495968001592245
+  },
+  {
+    "protocol": "stratified",
+    "graph": "none",
+    "k_graph": null,
+    "alpha": 0.0,
+    "tasks": 391,
+    "hit": 0.4629156010230179,
+    "recall": 0.4364267446108878,
+    "complete": 0.4143222506393862,
+    "mrr": 0.33601875532821823,
+    "ndcg": 0.35311815032953814
+  },
+  {
+    "protocol": "stratified",
+    "graph": "semantic",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 391,
+    "hit": 0.4629156010230179,
+    "recall": 0.4364267446108878,
+    "complete": 0.4143222506393862,
+    "mrr": 0.3215686274509804,
+    "ndcg": 0.3425437861814921
+  },
+  {
+    "protocol": "unseen_tool",
+    "graph": "combined",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 391,
+    "hit": 0.4680306905370844,
+    "recall": 0.4411155766654488,
+    "complete": 0.41687979539641945,
+    "mrr": 0.32655583972719526,
+    "ndcg": 0.3473940609316442
+  },
+  {
+    "protocol": "unseen_tool",
+    "graph": "none",
+    "k_graph": null,
+    "alpha": 0.0,
+    "tasks": 391,
+    "hit": 0.4680306905370844,
+    "recall": 0.4423943490439654,
+    "complete": 0.4194373401534527,
+    "mrr": 0.3345694799658994,
+    "ndcg": 0.35379796930402546
+  },
+  {
+    "protocol": "unseen_tool",
+    "graph": "semantic",
+    "k_graph": 5,
+    "alpha": 0.1,
+    "tasks": 391,
+    "hit": 0.46547314578005117,
+    "recall": 0.43983680428693217,
+    "complete": 0.41687979539641945,
+    "mrr": 0.32438192668371696,
+    "ndcg": 0.3454736384791425
+  }
+]

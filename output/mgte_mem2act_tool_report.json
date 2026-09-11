@@ -1,0 +1,32 @@
+{
+  "model": "Alibaba-NLP/gte-multilingual-base",
+  "revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "max_length": 512,
+  "document_serialization": "content-only SCAR reconstruction",
+  "schema_serialization": "labelled request, tool, and description only",
+  "timing_seconds": {
+    "documents": 0.0,
+    "requests": 0.0,
+    "schemas": 2.0562546250002924
+  },
+  "aggregates_at_5": [
+    {
+      "view": "request",
+      "n": 391,
+      "hit": 0.3734015345268542,
+      "recall": 0.35315430520034097,
+      "complete": 0.3375959079283887,
+      "mrr": 0.2658567774936061,
+      "ndcg": 0.28130482190068345
+    },
+    {
+      "view": "schema",
+      "n": 391,
+      "hit": 0.3069053708439898,
+      "recall": 0.2827609304591402,
+      "complete": 0.25831202046035806,
+      "mrr": 0.212617220801364,
+      "ndcg": 0.22357668238085854
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "normalization": "NFKC, casefold, non-word to spaces, collapse whitespace, token boundaries",
+  "structured_values": "recursive key/value flattening",
+  "excluded": "boolean, null, and normalized one-character values",
+  "results": [
+    {
+      "method": "Hybrid-Q",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 166,
+      "macro": 0.44496124031007755,
+      "micro": 0.46111111111111114
+    },
+    {
+      "method": "Calibrated-Q",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 177,
+      "macro": 0.470985603543743,
+      "micro": 0.49166666666666664
+    },
+    {
+      "method": "SCAR-Light",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 189,
+      "macro": 0.506201550387597,
+      "micro": 0.525
+    },
+    {
+      "method": "CE-Schema",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 190,
+      "macro": 0.5178294573643412,
+      "micro": 0.5277777777777778
+    },
+    {
+      "method": "CE-Calibrated",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 199,
+      "macro": 0.5424141749723145,
+      "micro": 0.5527777777777778
+    },
+    {
+      "method": "SCAR-Fuse",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 202,
+      "macro": 0.5444075304540421,
+      "micro": 0.5611111111111111
+    },
+    {
+      "method": "Oracle-Gold",
+      "tasks": 301,
+      "values": 360,
+      "values_found": 334,
+      "macro": 0.933001107419712,
+      "micro": 0.9277777777777778
+    }
+  ]
+}

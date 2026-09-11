@@ -1,0 +1,40 @@
+{
+  "source_commit": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+  "documents": 5882,
+  "questions": 1982,
+  "model": "bge-small",
+  "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "max_length": 512,
+  "document_style": "timestamp_plain",
+  "bm25_tokenizer": "unicode",
+  "elapsed_seconds_including_cached_load_and_ranking": 6.555883500026539,
+  "aggregate_at_5": [
+    {
+      "method": "BM25",
+      "n": 1982,
+      "hit": 0.5252270433905146,
+      "recall": 0.4840447687193398,
+      "complete": 0.4525731584258325,
+      "mrr": 0.38516649848637735,
+      "ndcg": 0.3969748492125853
+    },
+    {
+      "method": "Dense",
+      "n": 1982,
+      "hit": 0.5307769929364279,
+      "recall": 0.4763571116207303,
+      "complete": 0.43239152371342077,
+      "mrr": 0.37314160780356537,
+      "ndcg": 0.3828593811430778
+    },
+    {
+      "method": "RRF",
+      "n": 1982,
+      "hit": 0.5842583249243188,
+      "recall": 0.5296069110262953,
+      "complete": 0.4863773965691221,
+      "mrr": 0.421518668012109,
+      "ndcg": 0.4316589682020209
+    }
+  ]
+}

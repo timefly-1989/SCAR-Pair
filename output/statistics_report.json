@@ -1,0 +1,112 @@
+{
+  "seed": 20260730,
+  "bootstrap_resamples": 10000,
+  "bootstrap_unit": "shared-gold-source connected component",
+  "bootstrap_statistic": "task-weighted mean after resampled-component concatenation",
+  "bootstrap_interval": "percentile",
+  "randomization_resamples": 50000,
+  "randomization_unit": "task-level independent sign flip",
+  "randomization_plus_one_correction": true,
+  "holm_family": "three metrics separately for each comparator",
+  "results": [
+    {
+      "baseline": "Query-Fuse-strict",
+      "metric": "recall",
+      "difference": 0.06153330897576422,
+      "cluster_bootstrap_percentile_95": [
+        0.032105545465876115,
+        0.09139787346390169
+      ],
+      "task_sign_randomization_p_raw": 7.999840003199936e-05,
+      "task_sign_randomization_p_holm": 0.00015999680006399873
+    },
+    {
+      "baseline": "Query-Fuse-strict",
+      "metric": "complete",
+      "difference": 0.0639386189258312,
+      "cluster_bootstrap_percentile_95": [
+        0.03517367539451644,
+        0.09487179487179487
+      ],
+      "task_sign_randomization_p_raw": 0.00011999760004799904,
+      "task_sign_randomization_p_holm": 0.00015999680006399873
+    },
+    {
+      "baseline": "Query-Fuse-strict",
+      "metric": "ndcg",
+      "difference": 0.04931332678620296,
+      "cluster_bootstrap_percentile_95": [
+        0.028568542163537356,
+        0.0707638076149718
+      ],
+      "task_sign_randomization_p_raw": 1.999960000799984e-05,
+      "task_sign_randomization_p_holm": 5.9998800023999525e-05
+    },
+    {
+      "baseline": "CE-Calibrated-Broad",
+      "metric": "recall",
+      "difference": 0.030203385702106927,
+      "cluster_bootstrap_percentile_95": [
+        0.006675279931093886,
+        0.05407715525156077
+      ],
+      "task_sign_randomization_p_raw": 0.012659746805063899,
+      "task_sign_randomization_p_holm": 0.025319493610127797
+    },
+    {
+      "baseline": "CE-Calibrated-Broad",
+      "metric": "complete",
+      "difference": 0.030690537084398978,
+      "cluster_bootstrap_percentile_95": [
+        0.007633587786259542,
+        0.05513784461152882
+      ],
+      "task_sign_randomization_p_raw": 0.02249955000899982,
+      "task_sign_randomization_p_holm": 0.025319493610127797
+    },
+    {
+      "baseline": "CE-Calibrated-Broad",
+      "metric": "ndcg",
+      "difference": 0.031282933519218105,
+      "cluster_bootstrap_percentile_95": [
+        0.011925964503040396,
+        0.0510896358111179
+      ],
+      "task_sign_randomization_p_raw": 0.0014599708005839883,
+      "task_sign_randomization_p_holm": 0.004379912401751965
+    },
+    {
+      "baseline": "SCAR-Fuse",
+      "metric": "recall",
+      "difference": 0.013213981244671782,
+      "cluster_bootstrap_percentile_95": [
+        -0.005115089514066497,
+        0.032511332947530856
+      ],
+      "task_sign_randomization_p_raw": 0.17831643367132657,
+      "task_sign_randomization_p_holm": 0.35663286734265315
+    },
+    {
+      "baseline": "SCAR-Fuse",
+      "metric": "complete",
+      "difference": 0.01278772378516624,
+      "cluster_bootstrap_percentile_95": [
+        -0.005194805194805195,
+        0.032663316582914576
+      ],
+      "task_sign_randomization_p_raw": 0.30559388812223753,
+      "task_sign_randomization_p_holm": 0.35663286734265315
+    },
+    {
+      "baseline": "SCAR-Fuse",
+      "metric": "ndcg",
+      "difference": 0.011892808965131162,
+      "cluster_bootstrap_percentile_95": [
+        0.0004937294472984238,
+        0.02351489535487419
+      ],
+      "task_sign_randomization_p_raw": 0.042099158016839666,
+      "task_sign_randomization_p_holm": 0.126297474050519
+    }
+  ]
+}

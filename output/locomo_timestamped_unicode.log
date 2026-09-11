@@ -1,0 +1,41 @@
+LoCoMo ranking:   0%|          | 0/1982 [00:00<?, ?it/s]LoCoMo ranking:  17%|█▋        | 333/1982 [00:00<00:00, 3324.49it/s]LoCoMo ranking:  34%|███▎      | 666/1982 [00:00<00:00, 2608.66it/s]LoCoMo ranking:  47%|████▋     | 937/1982 [00:00<00:00, 2423.48it/s]LoCoMo ranking:  60%|█████▉    | 1185/1982 [00:00<00:00, 2307.08it/s]LoCoMo ranking:  72%|███████▏  | 1419/1982 [00:00<00:00, 2271.43it/s]LoCoMo ranking:  83%|████████▎ | 1648/1982 [00:00<00:00, 1966.39it/s]LoCoMo ranking:  96%|█████████▌| 1907/1982 [00:00<00:00, 2136.00it/s]LoCoMo ranking: 100%|██████████| 1982/1982 [00:00<00:00, 2260.47it/s]
+{
+  "source_commit": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+  "documents": 5882,
+  "questions": 1982,
+  "model": "bge-small",
+  "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "max_length": 512,
+  "document_style": "timestamped",
+  "bm25_tokenizer": "unicode",
+  "elapsed_seconds_including_cached_load_and_ranking": 0.9427385830204003,
+  "aggregate_at_5": [
+    {
+      "method": "BM25",
+      "n": 1982,
+      "hit": 0.5327951564076691,
+      "recall": 0.4903515295669685,
+      "complete": 0.4581231079717457,
+      "mrr": 0.39480322906155396,
+      "ndcg": 0.40492777342727304
+    },
+    {
+      "method": "Dense",
+      "n": 1982,
+      "hit": 0.5126135216952573,
+      "recall": 0.4608792293788139,
+      "complete": 0.4192734611503532,
+      "mrr": 0.3576101580894719,
+      "ndcg": 0.36909383195049195
+    },
+    {
+      "method": "RRF",
+      "n": 1982,
+      "hit": 0.5887991927346115,
+      "recall": 0.5356514462704696,
+      "complete": 0.49495459132189706,
+      "mrr": 0.419054826774302,
+      "ndcg": 0.43245232890723007
+    }
+  ]
+}
